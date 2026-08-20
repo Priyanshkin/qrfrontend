@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>API Tester</title>
+
+    <link rel="stylesheet" href="qr.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>QR Code API Tester</h1>
+
+        <form id="apiForm">
+
+            <label>QR Type</label>
+
+            <select id="type">
+                <option value="URL">URL</option>
+                <option value="EMAIL">EMAIL</option>
+                <option value="TEXT">TEXT</option>
+            </select>
+
+
+            <label>Enter Data</label>
+
+            <input
+                type="text"
+                id="data"
+                placeholder="Enter your data"
+                required
+            >
+
+            <button type="submit">
+                Generate QR Code
+            </button>
+
+        </form>
+
+
+        <div class="result">
+
+            <h2>API Response</h2>
+
+           <div class="result">
+    <h2>Generated QR Code</h2>
+
+    <img id="qrImage" style="display: none; width: 300px;">
+    <br>
+
+    <button id="downloadBtn" style="display: none;">
+        Download QR Code
+    </button>
+</div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
