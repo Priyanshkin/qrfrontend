@@ -174,13 +174,13 @@ This separation allowed both developers to work simultaneously without blocking 
 Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone <(https://github.com/Priyanshkin/qrfrontend)>
 ```
 
 Move to the project directory:
 
 ```bash
-cd <project-folder>
+cd <qrfrontend>
 ```
 
 Open the project in your preferred code editor.
@@ -258,4 +258,4 @@ By deploying the backend as an independent API service, the frontend developer c
 
 The project follows a modular architecture where the frontend focuses on user interaction and the backend handles the core processing logic.
 
-This README explains both your **technical implementation** and the important **team collaboration problem you solved**. You can replace the technology names and API URL according to your actual project.
+
