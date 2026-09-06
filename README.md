@@ -1,4 +1,4 @@
-Below is a clean and professional README structure you can use for your QR Frontend project.
+
 
 # QR Code Frontend Application
 
