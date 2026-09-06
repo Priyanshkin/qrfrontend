@@ -190,7 +190,7 @@ Configure the backend API URL in the frontend code.
 Example:
 
 ```javascript
-const API_URL = "YOUR_DEPLOYED_BACKEND_API_URL";
+const API_URL =https://universalqrcodegenerator.up.railway.app/api/qr;
 ```
 
 Run the frontend application.
